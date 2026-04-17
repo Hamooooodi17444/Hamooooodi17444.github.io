@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Playfair+Display:ital,wght@0,400;1,700&display=swap');
+
+:root {
+    --gold: #d4af37;
+    --dark-bg: #121212;
+    --text-light: #f4f4f4;
+}
+
+body {
+    background-color: var(--dark-bg);
+    color: var(--text-light);
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Den guldiga text-loggan */
+.text-logo {
+    font-family: 'Cinzel', serif;
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+h1, h2, h3, .nav-link {
+    font-family: 'Cinzel', serif;
+}
+
+.text-gold { color: var(--gold); }
+
+/* Knappar */
+.btn-gold {
+    background-color: var(--gold);
+    color: #000 !important;
+    font-weight: bold;
+    border-radius: 0;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.4s all ease;
+    border: none;
+}
+
+.btn-gold:hover {
+    background-color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(212, 175, 55, 0.3);
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.95) !important;
+    border-bottom: 1px solid var(--gold);
+}
+
+.nav-link {
+    color: #fff !important;
+    margin: 0 10px;
+    font-size: 0.9rem;
+}
+
+.nav-link:hover {
+    color: var(--gold) !important;
+}
+
+/* Meny-kort */
+.menu-item {
+    border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+    padding: 20px 0;
+}
