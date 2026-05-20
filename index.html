@@ -3,43 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chef Tingeling | Välkommen</title>
+    <meta name="description" content="Välkommen till restaurang Chef Tingeling i Stockholm. Drivs av Masterchef-vinnaren Mr. Strid. Boka ditt bord för en oförglömlig smakupplevelse.">
+    <title>Chef Tingeling | Lyxrestaurang i Stockholm</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bilder.css">
 </head>
 <body>
-    <header id="header-nav"></header>
+    <a class="skip-link" href="#main-content">Hoppa till huvudinnehållet</a>
 
-    <section class="hero-section">
-        <div class="container">
-            <h1 class="text-logo display-1 mb-2">Chef Tingeling</h1>
-            <p class="fs-3 fw-light mb-5">Där maten är själen och känslan säljer borden</p>
-            <a href="Hitta-oss.html" class="btn btn-gold btn-lg">Klicka här för ditt livs middag</a>
-        </div>
-    </section>
+    <div id="header-nav"></div>
 
-    <section class="container py-5 my-5">
-        <div class="row text-center mb-5">
-            <div class="col-12"><h2 class="text-logo">Därför är vi bäst i stan</h2></div>
-        </div>
-        <div class="row g-4 text-center">
-            <div class="col-md-4">
-                <h4 class="text-gold">Unik Expertis</h4>
-                <p>Masterchef-vinnare Mr. Strid står bakom varje recept och varje tallrik.</p>
+    <main id="main-content">
+        <section class="hero-section" aria-label="Välkomstskärm och introduktion">
+            <div class="container text-center">
+                <h1 class="text-logo display-1 mb-3">Chef Tingeling</h1>
+                <p class="fs-3 fw-light mb-5">Där maten är själen och känslan säljer borden</p>
+                <a href="Hitta-oss.html" class="btn btn-gold btn-lg" tabindex="0">Boka ditt livs middag</a>
             </div>
-            <div class="col-md-4">
-                <h4 class="text-gold">Råvaror i världsklass</h4>
-                <p>Vi handplockar allt från lokala bönder och fiskare för maximal kvalitet.</p>
-            </div>
-            <div class="col-md-4">
-                <h4 class="text-gold">Atmosfären</h4>
-                <p>En upplevelse för alla sinnen. Exklusivt, välkomnande och helt unikt.</p>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <footer id="main-footer"></footer>
+        <section class="container section-padding py-5 my-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="text-logo mb-4">Välkommen till vårt bord</h2>
+                    <p class="lead">Restaurangen där passion möter perfektion.</p>
+                    <p>Efter segern i Masterchef har Mr. Strid äntligen öppnat dörrarna till Chef Tingeling. Vi fokuserar på lokala råvaror och tekniker i världsklass för att ge dig en smakupplevelse du sent kommer glömma.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="utsida.jpg" alt="Exteriörbild av restaurangen Chef Tingeling i kvällsbelysning med varma guldiga lampor som lyser upp fönstren" class="img-fluid rounded shadow-lg" width="600" height="400">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="main-footer"></div>
+    
     <script src="init.js"></script>
 </body>
 </html>
